@@ -15,232 +15,212 @@
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="#inicio" aria-label="Andrea García González, inicio">
-        <span class="brand-mark">AG<span>.</span></span>
-        <span class="brand-copy"><strong>Andrea García González</strong><small>Desarrolladora web full-stack</small></span>
-      </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Abrir menú">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="toplinks" id="site-navigation" aria-label="Navegación principal">
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#trayectoria">Experiencia</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#stack">Tecnologías</a>
-        <a href="#formacion">Formación</a>
-        <a href="#contacto" class="nav-contact">Hablemos <span aria-hidden="true">↗</span></a>
-      </nav>
-    </div>
-  </header>
+  <div class="portfolio-frame">
+    <aside class="profile-rail" aria-label="Índice del portfolio">
+      <div class="rail-header">
+        <a class="rail-brand" href="#inicio" aria-label="Andrea García González, inicio">
+          <span class="rail-monogram">AG<span>.</span></span>
+          <span><strong>ANDREA GARCÍA</strong><small>PORTFOLIO / 2026</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
 
-  <main id="contenido">
-    <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span>DESARROLLADORA WEB · SEVILLA, ES</p>
-          <h1 id="hero-title">Andrea García<br><span>González</span><i>.</i></h1>
-          <p class="hero-role">Full-Stack Developer <span>/</span> <b>Laravel · PHP · MySQL</b></p>
-          <p class="hero-desc">Desarrollo aplicaciones web de principio a fin. Mi experiencia en Criminología me enseñó a analizar cada problema con método; hoy aplico ese enfoque al código, los datos y la experiencia de usuario.</p>
-          <div class="hero-actions">
-            <a href="#proyectos" class="button button-primary">Ver proyectos <span aria-hidden="true">↘</span></a>
-            <a href="assets/CV_Andrea_Garcia_Gonzalez.pdf" class="button button-secondary" download>Descargar CV <span aria-hidden="true">↓</span></a>
-          </div>
-          <div class="hero-socials">
-            <span class="social-label">ENCUÉNTRAME EN</span>
-            <a href="https://github.com/agarciagon" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Andrea"><i class="bi bi-github" aria-hidden="true"></i><span>GitHub</span><span aria-hidden="true">↗</span></a>
-            <a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Andrea"><i class="bi bi-linkedin" aria-hidden="true"></i><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
-          </div>
+      <div class="rail-content" id="site-navigation">
+        <div class="rail-identity">
+          <p class="rail-label">DESARROLLADORA WEB</p>
+          <h2>Andrea García<br>González</h2>
+          <p class="rail-role">Full-Stack Developer</p>
+          <p class="rail-status"><i></i>Disponible para trabajar</p>
         </div>
 
-        <div class="hero-visual">
-          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
-          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
-          <div class="portrait-wrap">
-            <div class="portrait-accent" aria-hidden="true"></div>
-            <img class="portrait" src="assets/andrea.jpg" alt="Foto de Andrea García González">
-            <span class="portrait-index">AG / 01</span>
+        <div class="rail-index-title"><span>ÍNDICE</span><span>00—05</span></div>
+        <nav class="chapter-list" aria-label="Navegación principal">
+          <a href="#inicio"><span class="chapter-number">00</span><span>Presentación</span><i>↗</i></a>
+          <a href="#proyectos"><span class="chapter-number">01</span><span>Proyectos</span><i>↗</i></a>
+          <a href="#sobre-mi"><span class="chapter-number">02</span><span>Enfoque</span><i>↗</i></a>
+          <a href="#trayectoria"><span class="chapter-number">03</span><span>Trayectoria</span><i>↗</i></a>
+          <a href="#stack"><span class="chapter-number">04</span><span>Stack técnico</span><i>↗</i></a>
+          <a href="#contacto"><span class="chapter-number">05</span><span>Contacto</span><i>↗</i></a>
+        </nav>
+
+        <div class="rail-bottom">
+          <a class="rail-cv" href="assets/CV_Andrea_Garcia_Gonzalez.pdf" download><i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i><span>Descargar currículum</span><b>PDF</b></a>
+          <div class="rail-socials">
+            <a href="https://github.com/agarciagon" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Andrea"><i class="bi bi-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Andrea"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            <span>EL RUBIO · SEVILLA</span>
           </div>
-          <div class="visual-index" aria-hidden="true"><span>FICHA DIGITAL</span><b>AG—01</b><span>MÉTODO ↔ CÓDIGO</span></div>
-          <div class="availability"><span></span>Disponible para trabajar</div>
-          <aside class="code-card" aria-label="Tecnologías principales">
-            <div class="code-card-head"><span><i></i><i></i><i></i></span><small>ficha_01.php</small><b>•••</b></div>
-            <div class="code-card-content">
-              <p><span class="code-muted">01</span> <span class="code-purple">$stack</span> = [</p>
-              <p class="code-indent"><span class="code-green">'Laravel'</span>,</p>
-              <p class="code-indent"><span class="code-green">'PHP'</span>,</p>
-              <p class="code-indent"><span class="code-green">'MySQL'</span></p>
-              <p>]; <span class="code-cursor"></span></p>
-            </div>
-            <div class="code-card-foot"><span>FULL-STACK</span><span>01—03</span></div>
-          </aside>
         </div>
       </div>
-      <div class="hero-bottom">
-        <span>EL RUBIO · SEVILLA, ESPAÑA</span>
-        <a href="#sobre-mi">Conoce mi perfil <span aria-hidden="true">↓</span></a>
-        <span>01 / 06</span>
-      </div>
-    </section>
+    </aside>
 
-    <section class="about section-pad" id="sobre-mi" aria-labelledby="about-title">
-      <div class="section-shell">
-        <div class="section-topline"><span>01 — PERFIL</span><span>ANÁLISIS + DESARROLLO</span></div>
-        <div class="section-heading">
-          <p class="eyebrow">SOBRE MÍ</p>
-          <h2 id="about-title">De la teoría del delito<br>al stack de Laravel<span>.</span></h2>
-        </div>
-        <div class="about-grid">
-          <div class="about-copy">
-            <p>Soy <strong>Técnica Superior en Desarrollo de Aplicaciones Web</strong> por el IES Trassierra (Córdoba), y graduada en Criminología y Seguridad por la Universidad de Cádiz. Ese cambio de rumbo no es tan raro como parece: ambos campos piden lo mismo — leer un problema con calma, descomponerlo en piezas, y no avanzar hasta que la lógica cierra.</p>
-            <p>Hoy ese enfoque lo aplico al código. Construyo aplicaciones full-stack con Laravel y PHP, diseño la base de datos antes de tocar la vista, y me tomo en serio cosas como la accesibilidad o los tests — no por norma, sino porque sé lo que cuesta encontrar un fallo cuando nadie documentó nada.</p>
-          </div>
-          <aside class="approach-card">
-            <div class="approach-card-head"><span>MI FORMA DE TRABAJAR</span><i class="bi bi-crosshair" aria-hidden="true"></i></div>
-            <div class="approach-step"><b>01</b><span>Analizar el problema</span><i aria-hidden="true">↘</i></div>
-            <div class="approach-step"><b>02</b><span>Diseñar los datos</span><i aria-hidden="true">↘</i></div>
-            <div class="approach-step"><b>03</b><span>Construir con sentido</span><i aria-hidden="true">✓</i></div>
-            <div class="language-block">
-              <span class="language-title">IDIOMAS</span>
-              <div><span>Español</span><b>Nativo</b></div>
-              <div><span>Inglés</span><b>B1</b></div>
-            </div>
-          </aside>
-        </div>
-      </div>
-    </section>
-
-    <section class="experience section-pad" id="trayectoria" aria-labelledby="experience-title">
-      <div class="section-shell">
-        <div class="section-topline"><span>02 — EXPERIENCIA</span><span>RECORRIDO / 2023—2026</span></div>
-        <div class="section-heading section-heading-row">
-          <div><p class="eyebrow">TRAYECTORIA</p><h2 id="experience-title">Experiencia con propósito<span>.</span></h2></div>
-          <p class="heading-aside">Distintos contextos.<br>La misma atención al detalle.</p>
-        </div>
-        <div class="experience-list">
-          <article class="experience-item">
-            <div class="experience-date"><span>FEB — MAY</span><b>2026</b></div>
-            <div class="experience-main"><h3>Full-Stack Developer Intern</h3><p class="experience-company">Creartia SL <span>· Prácticas de desarrollo</span></p><p>Desarrollo de frontend para los módulos de un sistema de gestión (login, clientes, actividades, calendario) con HTML5, CSS3, JavaScript, Tailwind y Bootstrap. Lógica de backend en PHP y Laravel conectada a MySQL. Trabajo en equipo con Git y GitHub en ~5 módulos en paralelo.</p></div>
-            <span class="experience-type">DESARROLLO WEB</span>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date"><span>JUN — SEP</span><b>2025</b></div>
-            <div class="experience-main"><h3>Empleada</h3><p class="experience-company">Centro Confalón</p><p>Gestión de cuentas digitales, cobros y reposición de inventario con sistemas informáticos. Conciliación de caja diaria y resolución de incidencias básicas en el TPV.</p></div>
-            <span class="experience-type">OPERACIONES</span>
-          </article>
-          <article class="experience-item">
-            <div class="experience-date"><span>NOV — ENE</span><b>2023—24</b></div>
-            <div class="experience-main"><h3>Prácticas de Criminología y Seguridad</h3><p class="experience-company">Universidad de Cádiz</p><p>Análisis de datos, redacción de informes y gestión de información confidencial en bases de datos.</p></div>
-            <span class="experience-type">ANÁLISIS</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="projects section-pad" id="proyectos" aria-labelledby="projects-title">
-      <div class="section-shell">
-        <div class="section-topline"><span>03 — PROYECTOS</span><span>SELECCIÓN PERSONAL</span></div>
-        <div class="section-heading section-heading-row">
-          <div><p class="eyebrow">TRABAJO SELECCIONADO</p><h2 id="projects-title">Ideas convertidas<br>en aplicaciones<span>.</span></h2></div>
-          <p class="heading-aside">De la base de datos<br>a la experiencia final.</p>
-        </div>
-        <div class="project-grid">
-          <article class="project-card project-featured">
-            <div class="project-art project-art-summus" aria-hidden="true">
-              <div class="art-topline"><span>ARCHIVO 01 / SUMMUS AETERNI</span><span>COMERCIO DIGITAL</span></div>
-              <div class="summus-flow">
-                <div class="flow-card flow-main"><span class="flow-icon"><i class="bi bi-box-seam"></i></span><small>SERVICIOS DIGITALES</small><b>Configurador<br>de paquetes</b><span class="flow-line"></span><em>Calculadora de financiación</em></div>
-                <div class="flow-connect"><span></span><i>↗</i></div>
-                <div class="flow-integrations"><span>STRIPE</span><span>GOOGLE OAUTH</span><span>CLOUDFLARE R2</span></div>
+    <div class="workspace">
+      <div class="workspace-bar"><span><i></i> ANDREA GARCÍA GONZÁLEZ <b>/</b> DESARROLLO WEB</span><span>SEVILLA, ES <b>·</b> 2026</span></div>
+      <main id="contenido">
+        <section class="opening chapter" id="inicio" aria-labelledby="opening-title">
+          <div class="chapter-marker"><span>00</span><span>IDENTIFICACIÓN / PERFIL</span><span class="marker-rule"></span></div>
+          <div class="opening-grid">
+            <div class="opening-copy">
+              <p class="signal-label"><span></span>ANÁLISIS · DISEÑO · DESARROLLO</p>
+              <h1 id="opening-title">Analizar.<br>Modelar.<br><em>Construir.</em></h1>
+              <p class="opening-name">Andrea García González <span>—</span> Full-Stack Developer</p>
+              <p class="opening-desc">Desarrollo aplicaciones web de principio a fin. Mi experiencia en Criminología me enseñó a analizar cada problema con método; hoy aplico ese enfoque al código, los datos y la experiencia de usuario.</p>
+              <div class="opening-actions">
+                <a class="action-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↘</span></a>
+                <a class="action-secondary" href="assets/CV_Andrea_Garcia_Gonzalez.pdf" download>Descargar CV <span aria-hidden="true">↓</span></a>
               </div>
-              <span class="art-watermark">S</span>
+              <div class="opening-focus"><span>ENFOQUE ACTUAL</span><div><b>Laravel</b><i>·</i><b>PHP</b><i>·</i><b>MySQL</b></div></div>
             </div>
-            <div class="project-copy">
-              <div class="project-kicker"><span>PROYECTO DE FIN DE CICLO</span><span class="production-dot">PRODUCCIÓN</span></div>
-              <h3>Summus Aeterni</h3>
-              <p>E-commerce de servicios funerarios digitales. Autenticación con Google OAuth 2.0, pagos con Stripe, almacenamiento en Cloudflare R2, configurador de paquetes con calculadora de financiación, panel de administración y suite de tests (unitarios, funcionales, accesibilidad WCAG 2.0 y control de acceso).</p>
-              <div class="project-stack"><span>Laravel 11</span><span>PHP 8.2</span><span>MySQL</span><span>Stripe API</span><span>Google OAuth 2.0</span><span>Cloudflare R2</span></div>
-              <a href="https://github.com/agarciagon/summusaeterni" target="_blank" rel="noopener noreferrer" class="project-link">Ver repositorio <span aria-hidden="true">↗</span></a>
-            </div>
-          </article>
 
-          <article class="project-card">
-            <div class="project-art project-art-games" aria-hidden="true">
-              <div class="art-topline"><span>ARCHIVO 02 / GAMESTORE</span><span>CATÁLOGO → PAGO</span></div>
-              <div class="games-visual"><span class="games-symbol">G<span>S</span></span><div class="games-pipeline"><span>CATÁLOGO</span><i></i><span>CARRITO</span><i></i><span>STRIPE</span></div><div class="receipt-line"><span>RECIBO DIGITAL</span><b>PDF</b></div></div>
+            <div class="opening-visual">
+              <div class="visual-register" aria-hidden="true"><span>REGISTRO</span><b>AG / 001</b><span>SEVILLA / ES</span></div>
+              <figure class="opening-portrait">
+                <img src="assets/andrea.jpg" alt="Foto de Andrea García González">
+                <figcaption><span>ANDREA GARCÍA GONZÁLEZ</span><span>PERFIL 001</span></figcaption>
+              </figure>
+              <div class="portrait-crosshair crosshair-one" aria-hidden="true">+</div>
+              <div class="portrait-crosshair crosshair-two" aria-hidden="true">+</div>
+              <div class="photo-status"><i></i>DISPONIBLE</div>
             </div>
-            <div class="project-copy">
-              <div class="project-kicker"><span>PROYECTO DE PRÁCTICAS</span></div>
-              <h3>GameStore</h3>
-              <p>Aplicación de e-commerce para venta de videojuegos con arquitectura MVC completa: catálogo de productos, carrito, autenticación de usuarios, pasarela de pago con Stripe y generación automática de recibos en PDF.</p>
-              <div class="project-stack"><span>PHP 8.1</span><span>MVC</span><span>MySQL</span><span>Stripe API</span><span>DomPDF</span></div>
-              <a href="https://github.com/agarciagon/gamestore" target="_blank" rel="noopener noreferrer" class="project-link">Ver repositorio <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="opening-bottom"><span>DEL MODELO DE DATOS</span><i></i><span>A LA INTERFAZ FINAL</span><span class="opening-bottom-note">DAW · CRIMINOLOGÍA Y SEGURIDAD</span></div>
+        </section>
+
+        <section class="projects chapter" id="proyectos" aria-labelledby="projects-title">
+          <div class="chapter-marker"><span>01</span><span>ARCHIVOS DE PROYECTO</span><span class="marker-rule"></span><span>03 REGISTROS</span></div>
+          <div class="section-intro">
+            <div><p class="signal-label"><span></span>TRABAJO SELECCIONADO</p><h2 id="projects-title">Sistemas hechos<br>para usarse<span>.</span></h2></div>
+            <p class="section-note">Cada proyecto empieza<br>por entender el problema.</p>
+          </div>
+
+          <div class="project-ledger">
+            <article class="project-record project-record-featured">
+              <div class="record-art record-art-summus" aria-hidden="true">
+                <div class="record-art-head"><span>FICHA 01 / SUMMUS AETERNI</span><span>ECOMMERCE</span></div>
+                <div class="summus-map">
+                  <div class="map-node map-service"><span class="map-node-index">01 / SERVICIOS</span><i class="bi bi-box-seam"></i><b>Configurador<br>de paquetes</b><small>Calculadora de financiación</small></div>
+                  <div class="map-link"><span></span><b>→</b></div>
+                  <div class="map-services"><span>STRIPE</span><span>GOOGLE OAUTH</span><span>CLOUDFLARE R2</span></div>
+                  <div class="map-admin">PANEL DE ADMINISTRACIÓN <i>↗</i></div>
+                </div>
+                <span class="record-watermark" aria-hidden="true">S</span>
+              </div>
+              <div class="record-info">
+                <div class="record-meta"><span>PROYECTO DE FIN DE CICLO</span><span class="record-live"><i></i>PRODUCCIÓN</span></div>
+                <h3>Summus Aeterni</h3>
+                <p>E-commerce de servicios funerarios digitales. Autenticación con Google OAuth 2.0, pagos con Stripe, almacenamiento en Cloudflare R2, configurador de paquetes con calculadora de financiación, panel de administración y suite de tests (unitarios, funcionales, accesibilidad WCAG 2.0 y control de acceso).</p>
+                <div class="record-tech"><span>Laravel 11</span><span>PHP 8.2</span><span>MySQL</span><span>Stripe API</span><span>Google OAuth 2.0</span><span>Cloudflare R2</span></div>
+                <a class="record-link" href="https://github.com/agarciagon/summusaeterni" target="_blank" rel="noopener noreferrer">Explorar repositorio <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project-record">
+              <div class="record-art record-art-games" aria-hidden="true">
+                <div class="record-art-head"><span>FICHA 02 / GAMESTORE</span><span>ECOMMERCE</span></div>
+                <div class="games-map"><b>G<span>S</span></b><div><span>CATÁLOGO</span><i></i><span>CARRITO</span><i></i><span>STRIPE</span></div><small>RECIBOS AUTOMÁTICOS <strong>PDF</strong></small></div>
+              </div>
+              <div class="record-info">
+                <div class="record-meta"><span>PROYECTO DE PRÁCTICAS</span></div>
+                <h3>GameStore</h3>
+                <p>Aplicación de e-commerce para venta de videojuegos con arquitectura MVC completa: catálogo de productos, carrito, autenticación de usuarios, pasarela de pago con Stripe y generación automática de recibos en PDF.</p>
+                <div class="record-tech"><span>PHP 8.1</span><span>MVC</span><span>MySQL</span><span>Stripe API</span><span>DomPDF</span></div>
+                <a class="record-link" href="https://github.com/agarciagon/gamestore" target="_blank" rel="noopener noreferrer">Explorar repositorio <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+
+            <article class="project-record">
+              <div class="record-art record-art-booknet" aria-hidden="true">
+                <div class="record-art-head"><span>FICHA 03 / BOOKNET</span><span>GESTIÓN</span></div>
+                <div class="booknet-map"><div class="book-stack"><i></i><i></i><i></i><i></i></div><div class="booknet-roles"><span>ADMINISTRADOR</span><span>CLIENTE</span><span>PRÉSTAMOS</span></div><div class="booknet-foot"><span>DEVOLUCIONES</span><span>INFORMES PDF</span></div></div>
+              </div>
+              <div class="record-info">
+                <div class="record-meta"><span>PROYECTO ACADÉMICO</span></div>
+                <h3>BookNet</h3>
+                <p>Sistema de gestión de biblioteca digital con doble rol (administrador / cliente). CRUD completo del catálogo, gestión de préstamos y devoluciones con control de fechas, alertas de retraso, informes en PDF y panel de estadísticas de uso.</p>
+                <div class="record-tech"><span>PHP</span><span>MySQL</span><span>PDO</span><span>Bootstrap</span><span>DomPDF</span></div>
+                <a class="record-link" href="https://github.com/agarciagon/booknet" target="_blank" rel="noopener noreferrer">Explorar repositorio <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="profile chapter" id="sobre-mi" aria-labelledby="profile-title">
+          <div class="chapter-marker"><span>02</span><span>NOTAS DE TRABAJO</span><span class="marker-rule"></span><span>PERFIL</span></div>
+          <div class="profile-heading"><p class="signal-label"><span></span>EL MÉTODO DETRÁS DEL CÓDIGO</p><h2 id="profile-title">La lógica también<br>es parte del diseño<span>.</span></h2></div>
+          <div class="profile-layout">
+            <div class="profile-story">
+              <p>Soy <strong>Técnica Superior en Desarrollo de Aplicaciones Web</strong> por el IES Trassierra (Córdoba), y graduada en Criminología y Seguridad por la Universidad de Cádiz. Ese cambio de rumbo no es tan raro como parece: ambos campos piden lo mismo — leer un problema con calma, descomponerlo en piezas, y no avanzar hasta que la lógica cierra.</p>
+              <p>Hoy ese enfoque lo aplico al código. Construyo aplicaciones full-stack con Laravel y PHP, diseño la base de datos antes de tocar la vista, y me tomo en serio cosas como la accesibilidad o los tests — no por norma, sino porque sé lo que cuesta encontrar un fallo cuando nadie documentó nada.</p>
             </div>
-          </article>
+            <aside class="method-board">
+              <div class="method-board-title"><span>PROTOCOLO DE TRABAJO</span><span>AG / 02</span></div>
+              <div class="method-step"><span>01</span><div><b>Observar</b><small>Entender el problema antes de implementar.</small></div><i>+</i></div>
+              <div class="method-step"><span>02</span><div><b>Estructurar</b><small>Modelar datos y responsabilidades.</small></div><i>+</i></div>
+              <div class="method-step"><span>03</span><div><b>Verificar</b><small>Cuidar accesibilidad, lógica y pruebas.</small></div><i>✓</i></div>
+              <div class="language-index"><span>IDIOMAS</span><p><b>Español</b><small>Nativo</small></p><p><b>Inglés</b><small>B1</small></p></div>
+            </aside>
+          </div>
+        </section>
 
-          <article class="project-card">
-            <div class="project-art project-art-booknet" aria-hidden="true">
-              <div class="art-topline"><span>ARCHIVO 03 / BOOKNET</span><span>GESTIÓN DE BIBLIOTECA</span></div>
-              <div class="booknet-visual"><div class="book-stack"><i></i><i></i><i></i><i></i></div><div class="booknet-details"><span>ADMINISTRADOR</span><span>CLIENTE</span><span>PRÉSTAMOS</span></div></div>
-              <div class="booknet-footer"><span>DEVOLUCIONES</span><span>INFORMES PDF</span><span>ESTADÍSTICAS</span></div>
+        <section class="trajectory chapter" aria-label="Experiencia y formación">
+          <div class="chapter-marker"><span>03</span><span>TRAYECTORIA + FORMACIÓN</span><span class="marker-rule"></span><span>2023—2026</span></div>
+          <div class="trajectory-grid">
+            <div class="timeline-panel" id="trayectoria">
+              <div class="panel-heading"><p class="signal-label"><span></span>EXPERIENCIA</p><h2>Dónde he aplicado esto</h2></div>
+              <div class="timeline">
+                <article class="timeline-entry">
+                  <div class="timeline-date">FEB — MAY<br><b>2026</b></div>
+                  <div><h3>Full-Stack Developer Intern</h3><p class="timeline-place">Creartia SL</p><p>Desarrollo de frontend para los módulos de un sistema de gestión (login, clientes, actividades, calendario) con HTML5, CSS3, JavaScript, Tailwind y Bootstrap. Lógica de backend en PHP y Laravel conectada a MySQL. Trabajo en equipo con Git y GitHub en ~5 módulos en paralelo.</p></div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-date">JUN — SEP<br><b>2025</b></div>
+                  <div><h3>Empleada</h3><p class="timeline-place">Centro Confalón</p><p>Gestión de cuentas digitales, cobros y reposición de inventario con sistemas informáticos. Conciliación de caja diaria y resolución de incidencias básicas en el TPV.</p></div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-date">NOV 2023<br>— ENE 2024</div>
+                  <div><h3>Prácticas de Criminología y Seguridad</h3><p class="timeline-place">Universidad de Cádiz</p><p>Análisis de datos, redacción de informes y gestión de información confidencial en bases de datos.</p></div>
+                </article>
+              </div>
             </div>
-            <div class="project-copy">
-              <div class="project-kicker"><span>PROYECTO ACADÉMICO</span></div>
-              <h3>BookNet</h3>
-              <p>Sistema de gestión de biblioteca digital con doble rol (administrador / cliente). CRUD completo del catálogo, gestión de préstamos y devoluciones con control de fechas, alertas de retraso, informes en PDF y panel de estadísticas de uso.</p>
-              <div class="project-stack"><span>PHP</span><span>MySQL</span><span>PDO</span><span>Bootstrap</span><span>DomPDF</span></div>
-              <a href="https://github.com/agarciagon/booknet" target="_blank" rel="noopener noreferrer" class="project-link">Ver repositorio <span aria-hidden="true">↗</span></a>
+
+            <div class="education-panel" id="formacion">
+              <div class="panel-heading"><p class="signal-label"><span></span>FORMACIÓN</p><h2>Base académica</h2></div>
+              <article class="education-entry"><span>2026</span><div><h3>Curso de especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</h3><p>IES Trassierra, Córdoba</p></div></article>
+              <article class="education-entry"><span>2026</span><div><h3>Graduada en Desarrollo de Aplicaciones Web</h3><p>IES Trassierra, Córdoba</p><small>Frontend (HTML5, CSS3, JS, Node.js, Tailwind, Bootstrap) · Backend (PHP, Java, Laravel) · Bases de datos (MySQL, MongoDB) · Despliegue de aplicaciones web.</small></div></article>
+              <article class="education-entry"><span>2024</span><div><h3>Graduada en Criminología y Seguridad</h3><p>Facultad de Derecho, Universidad de Cádiz</p><small>Metodología de investigación, análisis de datos, gestión de bases de datos, pensamiento analítico y trabajo en equipos multidisciplinares.</small></div></article>
             </div>
-          </article>
-        </div>
-      </div>
-    </section>
+          </div>
+        </section>
 
-    <section class="stack section-pad" id="stack" aria-labelledby="stack-title">
-      <div class="section-shell">
-        <div class="section-topline"><span>04 — TECNOLOGÍAS</span><span>HERRAMIENTAS DE TRABAJO</span></div>
-        <div class="section-heading section-heading-row">
-          <div><p class="eyebrow">STACK</p><h2 id="stack-title">Tecnologías que<br>uso para construir<span>.</span></h2></div>
-          <p class="heading-aside">Un stack amplio, con foco<br>en desarrollo full-stack.</p>
-        </div>
-        <div class="stack-grid">
-          <article class="stack-card"><div class="stack-card-top"><span class="stack-icon"><i class="bi bi-window"></i></span><span>01</span></div><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Bootstrap 5 · Tailwind CSS · Node.js</p></article>
-          <article class="stack-card"><div class="stack-card-top"><span class="stack-icon"><i class="bi bi-braces"></i></span><span>02</span></div><h3>Backend</h3><p>PHP 8.x · Laravel 11 · Java</p></article>
-          <article class="stack-card"><div class="stack-card-top"><span class="stack-icon"><i class="bi bi-database"></i></span><span>03</span></div><h3>Bases de datos</h3><p>MySQL · MongoDB</p></article>
-          <article class="stack-card"><div class="stack-card-top"><span class="stack-icon"><i class="bi bi-plug"></i></span><span>04</span></div><h3>APIs &amp; Integraciones</h3><p>Stripe · Google OAuth 2.0 · Gmail SMTP · Cloudflare R2</p></article>
-          <article class="stack-card"><div class="stack-card-top"><span class="stack-icon"><i class="bi bi-git"></i></span><span>05</span></div><h3>Herramientas</h3><p>Git · GitHub · MVC · REST APIs · Testing · WCAG 2.0</p></article>
-          <article class="stack-card"><div class="stack-card-top"><span class="stack-icon"><i class="bi bi-cloud-arrow-up"></i></span><span>06</span></div><h3>Despliegue</h3><p>AlwaysData · Configuración de servidores</p></article>
-        </div>
-      </div>
-    </section>
+        <section class="stack chapter" id="stack" aria-labelledby="stack-title">
+          <div class="chapter-marker"><span>04</span><span>ENTORNO TÉCNICO</span><span class="marker-rule"></span><span>HERRAMIENTAS</span></div>
+          <div class="section-intro">
+            <div><p class="signal-label"><span></span>TECNOLOGÍAS</p><h2 id="stack-title">Mi caja de<br>herramientas<span>.</span></h2></div>
+            <p class="section-note">Herramientas elegidas<br>para cada parte del sistema.</p>
+          </div>
+          <div class="tool-index">
+            <article class="tool-group"><span class="tool-id">01</span><div><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Bootstrap 5 · Tailwind CSS · Node.js</p></div><i class="bi bi-window" aria-hidden="true"></i></article>
+            <article class="tool-group"><span class="tool-id">02</span><div><h3>Backend</h3><p>PHP 8.x · Laravel 11 · Java</p></div><i class="bi bi-braces" aria-hidden="true"></i></article>
+            <article class="tool-group"><span class="tool-id">03</span><div><h3>Bases de datos</h3><p>MySQL · MongoDB</p></div><i class="bi bi-database" aria-hidden="true"></i></article>
+            <article class="tool-group"><span class="tool-id">04</span><div><h3>APIs &amp; Integraciones</h3><p>Stripe · Google OAuth 2.0 · Gmail SMTP · Cloudflare R2</p></div><i class="bi bi-plug" aria-hidden="true"></i></article>
+            <article class="tool-group"><span class="tool-id">05</span><div><h3>Herramientas</h3><p>Git · GitHub · MVC · REST APIs · Testing · WCAG 2.0</p></div><i class="bi bi-git" aria-hidden="true"></i></article>
+            <article class="tool-group"><span class="tool-id">06</span><div><h3>Despliegue</h3><p>AlwaysData · Configuración de servidores</p></div><i class="bi bi-cloud-arrow-up" aria-hidden="true"></i></article>
+          </div>
+        </section>
+      </main>
 
-    <section class="education section-pad" id="formacion" aria-labelledby="education-title">
-      <div class="section-shell">
-        <div class="section-topline"><span>05 — FORMACIÓN</span><span>APRENDIZAJE CONTINUO</span></div>
-        <div class="section-heading section-heading-row">
-          <div><p class="eyebrow">FORMACIÓN</p><h2 id="education-title">Una base interdisciplinar<span>.</span></h2></div>
-          <p class="heading-aside">Tecnología, investigación<br>y pensamiento analítico.</p>
+      <footer class="contact chapter" id="contacto">
+        <div class="chapter-marker"><span>05</span><span>CANAL ABIERTO</span><span class="marker-rule"></span><span>CONTACTO</span></div>
+        <div class="contact-card">
+          <div class="contact-copy"><p class="signal-label"><span></span>DISPONIBLE PARA NUEVAS OPORTUNIDADES</p><h2>¿Hablamos<span>?</span></h2><p>Andrea García González · El Rubio, Sevilla, España</p></div>
+          <div class="contact-action"><a href="mailto:andrea.garciagonzalez28@gmail.com">andrea.garciagonzalez28@gmail.com <span aria-hidden="true">↗</span></a><div><a href="https://github.com/agarciagon" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div>
         </div>
-        <div class="education-list">
-          <article class="education-card"><span class="education-year">2026</span><div><h3>Curso de especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</h3><p>IES Trassierra, Córdoba</p></div><span class="education-arrow" aria-hidden="true">↗</span></article>
-          <article class="education-card"><span class="education-year">2026</span><div><h3>Graduada en Desarrollo de Aplicaciones Web</h3><p>IES Trassierra, Córdoba</p><small>Frontend (HTML5, CSS3, JS, Node.js, Tailwind, Bootstrap) · Backend (PHP, Java, Laravel) · Bases de datos (MySQL, MongoDB) · Despliegue de aplicaciones web.</small></div><span class="education-arrow" aria-hidden="true">↗</span></article>
-          <article class="education-card"><span class="education-year">2024</span><div><h3>Graduada en Criminología y Seguridad</h3><p>Facultad de Derecho, Universidad de Cádiz</p><small>Metodología de investigación, análisis de datos, gestión de bases de datos, pensamiento analítico y trabajo en equipos multidisciplinares.</small></div><span class="education-arrow" aria-hidden="true">↗</span></article>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="contact" id="contacto">
-    <div class="contact-shell">
-      <div class="contact-topline"><span>06 — CONTACTO</span><span>DISPONIBLE PARA NUEVAS OPORTUNIDADES</span></div>
-      <div class="contact-content">
-        <div><p class="eyebrow">¿TRABAJAMOS JUNTOS?</p><h2>Hablemos<span>.</span></h2><p class="contact-copy">Disponible para nuevas oportunidades.</p></div>
-        <div class="contact-action"><a href="mailto:andrea.garciagonzalez28@gmail.com" class="contact-email">andrea.garciagonzalez28@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-socials"><a href="https://github.com/agarciagon" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Andrea"><i class="bi bi-github" aria-hidden="true"></i> GitHub <span aria-hidden="true">↗</span></a><a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Andrea"><i class="bi bi-linkedin" aria-hidden="true"></i> LinkedIn <span aria-hidden="true">↗</span></a></div></div>
-      </div>
-      <div class="contact-footer"><a class="footer-brand" href="#inicio"><span class="brand-mark">AG<span>.</span></span><span>Andrea García González</span></a><span>El Rubio, Sevilla, España · © 2026</span><a href="#inicio">Volver arriba ↑</a></div>
+        <div class="page-footer"><span>ANDREA GARCÍA GONZÁLEZ</span><span>PORTFOLIO PERSONAL · © 2026</span><a href="#inicio">VOLVER AL INICIO ↑</a></div>
+      </footer>
     </div>
-  </footer>
+  </div>
   <script src="script.js" defer></script>
 </body>
 </html>

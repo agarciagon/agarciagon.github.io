@@ -1,8 +1,7 @@
 const menuToggle = document.querySelector('.menu-toggle');
 const siteNavigation = document.querySelector('#site-navigation');
-const siteHeader = document.querySelector('.site-header');
 
-if (menuToggle && siteNavigation && siteHeader) {
+if (menuToggle && siteNavigation) {
   const setMenuOpen = (open) => {
     menuToggle.setAttribute('aria-expanded', String(open));
     menuToggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
@@ -20,11 +19,7 @@ if (menuToggle && siteNavigation && siteHeader) {
   });
 
   document.addEventListener('click', (event) => {
-    if (
-      menuToggle.getAttribute('aria-expanded') === 'true' &&
-      !menuToggle.contains(event.target) &&
-      !siteNavigation.contains(event.target)
-    ) {
+    if (menuToggle.getAttribute('aria-expanded') === 'true' && !menuToggle.contains(event.target) && !siteNavigation.contains(event.target)) {
       setMenuOpen(false);
     }
   });
@@ -36,7 +31,7 @@ if (menuToggle && siteNavigation && siteHeader) {
     }
   });
 
-  const desktopBreakpoint = window.matchMedia('(min-width: 761px)');
+  const desktopBreakpoint = window.matchMedia('(min-width: 901px)');
   const closeOnDesktop = (event) => {
     if (event.matches) setMenuOpen(false);
   };
