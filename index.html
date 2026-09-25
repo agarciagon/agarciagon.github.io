@@ -21,7 +21,10 @@
         <span class="brand-mark">AG<span>.</span></span>
         <span class="brand-copy"><strong>Andrea García González</strong><small>Desarrolladora web full-stack</small></span>
       </a>
-      <nav class="toplinks" aria-label="Navegación principal">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="toplinks" id="site-navigation" aria-label="Navegación principal">
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#trayectoria">Experiencia</a>
         <a href="#proyectos">Proyectos</a>
@@ -59,9 +62,10 @@
             <img class="portrait" src="assets/andrea.jpg" alt="Foto de Andrea García González">
             <span class="portrait-index">AG / 01</span>
           </div>
+          <div class="visual-index" aria-hidden="true"><span>FICHA DIGITAL</span><b>AG—01</b><span>MÉTODO ↔ CÓDIGO</span></div>
           <div class="availability"><span></span>Disponible para trabajar</div>
           <aside class="code-card" aria-label="Tecnologías principales">
-            <div class="code-card-head"><span><i></i><i></i><i></i></span><small>stack.php</small><b>•••</b></div>
+            <div class="code-card-head"><span><i></i><i></i><i></i></span><small>ficha_01.php</small><b>•••</b></div>
             <div class="code-card-content">
               <p><span class="code-muted">01</span> <span class="code-purple">$stack</span> = [</p>
               <p class="code-indent"><span class="code-green">'Laravel'</span>,</p>
@@ -144,7 +148,7 @@
         <div class="project-grid">
           <article class="project-card project-featured">
             <div class="project-art project-art-summus" aria-hidden="true">
-              <div class="art-topline"><span>SUMMUS AETERNI</span><span>01 / E-COMMERCE</span></div>
+              <div class="art-topline"><span>ARCHIVO 01 / SUMMUS AETERNI</span><span>COMERCIO DIGITAL</span></div>
               <div class="summus-flow">
                 <div class="flow-card flow-main"><span class="flow-icon"><i class="bi bi-box-seam"></i></span><small>SERVICIOS DIGITALES</small><b>Configurador<br>de paquetes</b><span class="flow-line"></span><em>Calculadora de financiación</em></div>
                 <div class="flow-connect"><span></span><i>↗</i></div>
@@ -163,7 +167,7 @@
 
           <article class="project-card">
             <div class="project-art project-art-games" aria-hidden="true">
-              <div class="art-topline"><span>GAMESTORE</span><span>02 / E-COMMERCE</span></div>
+              <div class="art-topline"><span>ARCHIVO 02 / GAMESTORE</span><span>CATÁLOGO → PAGO</span></div>
               <div class="games-visual"><span class="games-symbol">G<span>S</span></span><div class="games-pipeline"><span>CATÁLOGO</span><i></i><span>CARRITO</span><i></i><span>STRIPE</span></div><div class="receipt-line"><span>RECIBO DIGITAL</span><b>PDF</b></div></div>
             </div>
             <div class="project-copy">
@@ -177,8 +181,8 @@
 
           <article class="project-card">
             <div class="project-art project-art-booknet" aria-hidden="true">
-              <div class="art-topline"><span>BOOKNET</span><span>03 / GESTIÓN</span></div>
-              <div class="booknet-visual"><div class="book-stack"><i></i><i></i><i></i><i></i></div><div class="booknet-details"><span>ADMINISTRADOR <b>01</b></span><span>CLIENTE <b>02</b></span><span>PRÉSTAMOS <b>24</b></span></div></div>
+              <div class="art-topline"><span>ARCHIVO 03 / BOOKNET</span><span>GESTIÓN DE BIBLIOTECA</span></div>
+              <div class="booknet-visual"><div class="book-stack"><i></i><i></i><i></i><i></i></div><div class="booknet-details"><span>ADMINISTRADOR</span><span>CLIENTE</span><span>PRÉSTAMOS</span></div></div>
               <div class="booknet-footer"><span>DEVOLUCIONES</span><span>INFORMES PDF</span><span>ESTADÍSTICAS</span></div>
             </div>
             <div class="project-copy">
@@ -237,5 +241,6 @@
       <div class="contact-footer"><a class="footer-brand" href="#inicio"><span class="brand-mark">AG<span>.</span></span><span>Andrea García González</span></a><span>El Rubio, Sevilla, España · © 2026</span><a href="#inicio">Volver arriba ↑</a></div>
     </div>
   </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
