@@ -1,242 +1,233 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#111613">
-<title>Andrea García González | Desarrolladora Web Full-Stack</title>
-<meta name="description" content="Portfolio de Andrea García González, desarrolladora web junior. Laravel, PHP, MySQL, JavaScript.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f2efe7">
+  <title>Andrea García González | Desarrolladora Web Full-Stack</title>
+  <meta name="description" content="Portfolio de Andrea García González, desarrolladora web junior. Laravel, PHP, MySQL, JavaScript.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-<a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#inicio" aria-label="Andrea García González, inicio">
+        <span class="brand-mark">AG<span>.</span></span>
+        <span class="brand-text"><strong>Andrea García González</strong><small>Desarrollo web full-stack</small></span>
+      </a>
+      <nav class="toplinks" aria-label="Navegación principal">
+        <a href="#trayectoria">Trayectoria</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#stack">Stack</a>
+        <a href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
-<header class="topbar">
-  <div class="topbar-inner">
-    <a class="brand" href="#contenido" aria-label="Andrea García González, inicio"><span class="brand-mark">AG<span>.</span></span><span class="brand-name">Andrea García González</span></a>
-    <nav class="toplinks">
-      <a href="#trayectoria">Trayectoria</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#stack">Stack</a>
-      <a href="#contacto" class="cta-small">Contactar</a>
-    </nav>
-  </div>
-</header>
-
-<main id="contenido">
-
-  <section class="hero">
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-line"></span>DESARROLLO WEB · SEVILLA, ES</p>
-        <h1>Andrea García<br><span>González</span></h1>
-        <p class="hero-role">Full-Stack Developer <span class="divider">/</span> <span class="mono">Laravel · PHP · MySQL</span></p>
-        <p class="hero-desc">Vengo de Criminología y Seguridad — analizar evidencia, seguir un proceso, no dar nada por hecho. Ahora aplico esa misma cabeza a construir aplicaciones web: del modelo de datos a la interfaz que el usuario realmente toca.</p>
-        <div class="hero-actions">
-          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
-          <a href="assets/CV_Andrea_Garcia_Gonzalez.pdf" class="btn btn-ghost" download>Descargar CV</a>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-mark"></span>PORTFOLIO / DESARROLLO WEB</p>
+          <h1 id="hero-title">Andrea<br><span>García</span><br>González<span class="title-period">.</span></h1>
+          <p class="hero-role">Full-Stack Developer <span>/</span> <b>Laravel · PHP · MySQL</b></p>
+          <p class="hero-desc">Vengo de Criminología y Seguridad — analizar evidencia, seguir un proceso, no dar nada por hecho. Ahora aplico esa misma cabeza a construir aplicaciones web: del modelo de datos a la interfaz que el usuario realmente toca.</p>
+          <div class="hero-actions">
+            <a href="#proyectos" class="button button-primary">Explorar proyectos <span aria-hidden="true">↘</span></a>
+            <a href="assets/CV_Andrea_Garcia_Gonzalez.pdf" class="button button-secondary" download>Descargar CV <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-bottom">
+            <div class="hero-links" aria-label="Redes profesionales">
+              <a href="https://github.com/agarciagon" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Andrea"><i class="bi bi-github" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Andrea"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            </div>
+            <p class="hero-location"><span class="location-mark"></span>EL RUBIO, SEVILLA · ES</p>
+          </div>
         </div>
-        <div class="hero-links">
-          <a href="https://github.com/agarciagon" target="_blank" rel="noopener" aria-label="GitHub de Andrea"><i class="bi bi-github"></i></a>
-          <a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener" aria-label="LinkedIn de Andrea"><i class="bi bi-linkedin"></i></a>
+
+        <div class="hero-art">
+          <div class="portrait-backdrop" aria-hidden="true"><span>AG</span></div>
+          <figure class="portrait">
+            <img src="assets/andrea.jpg" alt="Foto de Andrea García González">
+            <figcaption><span>Andrea García González</span><span>01 / PERFIL</span></figcaption>
+          </figure>
+          <div class="availability"><span class="availability-dot"></span><span>Disponible para trabajar</span></div>
+          <span class="hero-side-index" aria-hidden="true">DISEÑO · LÓGICA · CÓDIGO</span>
         </div>
       </div>
-      <div class="hero-photo">
-        <div class="photo-frame">
-          <span class="photo-index">AG / 01</span>
-          <img src="assets/andrea.jpg" alt="Foto de Andrea García González">
+      <a class="scroll-cue" href="#sobre-mi"><span>Desliza para conocerme</span><i aria-hidden="true">↓</i></a>
+    </section>
+
+    <section class="about section-pad" id="sobre-mi" aria-labelledby="about-title">
+      <div class="section-layout">
+        <div class="section-label"><span>01</span><span>Perfil</span></div>
+        <div class="section-content">
+          <div class="section-heading">
+            <p class="eyebrow">UNA FORMA DE PENSAR</p>
+            <h2 id="about-title">De la teoría del delito<br>al stack de Laravel</h2>
+          </div>
+          <div class="about-grid">
+            <p class="about-text">Soy <strong>Técnica Superior en Desarrollo de Aplicaciones Web</strong> por el IES Trassierra (Córdoba), y graduada en Criminología y Seguridad por la Universidad de Cádiz. Ese cambio de rumbo no es tan raro como parece: ambos campos piden lo mismo — leer un problema con calma, descomponerlo en piezas, y no avanzar hasta que la lógica cierra.</p>
+            <p class="about-text">Hoy ese enfoque lo aplico al código. Construyo aplicaciones full-stack con Laravel y PHP, diseño la base de datos antes de tocar la vista, y me tomo en serio cosas como la accesibilidad o los tests — no por norma, sino porque sé lo que cuesta encontrar un fallo cuando nadie documentó nada.</p>
+            <aside class="languages" aria-label="Idiomas">
+              <h3>Idiomas</h3>
+              <div class="language-row"><span>Español</span><span>Nativo</span></div>
+              <div class="language-row"><span>Inglés</span><span>B1</span></div>
+            </aside>
+          </div>
         </div>
-        <div class="photo-tag"><span class="status-dot"></span>Disponible para trabajar</div>
-        <div class="code-note" aria-hidden="true"><span class="code-note-top"><i></i><i></i><i></i><span>stack.config</span></span><span class="code-line"><b>01</b> Laravel <em>→</em> soluciones</span><span class="code-line"><b>02</b> PHP <em>→</em> lógica</span><span class="code-line"><b>03</b> MySQL <em>→</em> datos</span></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="about" id="sobre-mi">
-    <div class="section-head">
-      <span class="section-num">Perfil</span>
-      <h2>De la teoría del delito al stack de Laravel</h2>
-    </div>
-    <div class="about-grid">
-      <p class="about-text">
-        Soy <strong>Técnica Superior en Desarrollo de Aplicaciones Web</strong> por el IES Trassierra (Córdoba), y graduada en Criminología y Seguridad por la Universidad de Cádiz. Ese cambio de rumbo no es tan raro como parece: ambos campos piden lo mismo — leer un problema con calma, descomponerlo en piezas, y no avanzar hasta que la lógica cierra.
-      </p>
-      <p class="about-text">
-        Hoy ese enfoque lo aplico al código. Construyo aplicaciones full-stack con Laravel y PHP, diseño la base de datos antes de tocar la vista, y me tomo en serio cosas como la accesibilidad o los tests — no por norma, sino porque sé lo que cuesta encontrar un fallo cuando nadie documentó nada.
-      </p>
-      <div class="about-langs">
-        <span class="lang-label">Idiomas</span>
-        <div class="lang-row"><span>Español</span><span class="lang-level">Nativo</span></div>
-        <div class="lang-row"><span>Inglés</span><span class="lang-level">B1</span></div>
+    <section class="experience section-pad" id="trayectoria" aria-labelledby="experience-title">
+      <div class="section-layout">
+        <div class="section-label"><span>02</span><span>Trayectoria</span></div>
+        <div class="section-content">
+          <div class="section-heading section-heading-inline">
+            <div><p class="eyebrow">EXPERIENCIA</p><h2 id="experience-title">Dónde he aplicado esto</h2></div>
+            <span class="heading-note">RECORRIDO / 2023—2026</span>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-date">Feb — May 2026</div>
+              <div class="timeline-body">
+                <h3>Full-Stack Developer Intern <span>· Creartia SL</span></h3>
+                <p>Desarrollo de frontend para los módulos de un sistema de gestión (login, clientes, actividades, calendario) con HTML5, CSS3, JavaScript, Tailwind y Bootstrap. Lógica de backend en PHP y Laravel conectada a MySQL. Trabajo en equipo con Git y GitHub en ~5 módulos en paralelo.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-date">Jun — Sep 2025</div>
+              <div class="timeline-body">
+                <h3>Empleada <span>· Centro Confalón</span></h3>
+                <p>Gestión de cuentas digitales, cobros y reposición de inventario con sistemas informáticos. Conciliación de caja diaria y resolución de incidencias básicas en el TPV.</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-date">Nov 2023 — Ene 2024</div>
+              <div class="timeline-body">
+                <h3>Prácticas de Criminología y Seguridad <span>· Universidad de Cádiz</span></h3>
+                <p>Análisis de datos, redacción de informes y gestión de información confidencial en bases de datos.</p>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="experience" id="trayectoria">
-    <div class="section-head">
-      <span class="section-num">Experiencia</span>
-      <h2>Dónde he aplicado esto</h2>
-    </div>
-    <div class="exp-list">
-      <article class="exp-item">
-        <div class="exp-when">Feb — May 2026</div>
-        <div class="exp-body">
-          <h3>Full-Stack Developer Intern <span class="exp-co">· Creartia SL</span></h3>
-          <p>Desarrollo de frontend para los módulos de un sistema de gestión (login, clientes, actividades, calendario) con HTML5, CSS3, JavaScript, Tailwind y Bootstrap. Lógica de backend en PHP y Laravel conectada a MySQL. Trabajo en equipo con Git y GitHub en ~5 módulos en paralelo.</p>
-        </div>
-      </article>
-      <article class="exp-item">
-        <div class="exp-when">Jun — Sep 2025</div>
-        <div class="exp-body">
-          <h3>Empleada <span class="exp-co">· Centro Confalón</span></h3>
-          <p>Gestión de cuentas digitales, cobros y reposición de inventario con sistemas informáticos. Conciliación de caja diaria y resolución de incidencias básicas en el TPV.</p>
-        </div>
-      </article>
-      <article class="exp-item">
-        <div class="exp-when">Nov 2023 — Ene 2024</div>
-        <div class="exp-body">
-          <h3>Prácticas de Criminología y Seguridad <span class="exp-co">· Universidad de Cádiz</span></h3>
-          <p>Análisis de datos, redacción de informes y gestión de información confidencial en bases de datos.</p>
-        </div>
-      </article>
-    </div>
-  </section>
+    <section class="projects section-pad" id="proyectos" aria-labelledby="projects-title">
+      <div class="section-layout">
+        <div class="section-label section-label-light"><span>03</span><span>Trabajo</span></div>
+        <div class="section-content">
+          <div class="section-heading section-heading-inline">
+            <div><p class="eyebrow">SELECCIÓN DE PROYECTOS</p><h2 id="projects-title">Hechos para resolver problemas</h2></div>
+            <span class="heading-note">03 PROYECTOS</span>
+          </div>
+          <div class="project-grid">
+            <article class="project-card project-featured">
+              <div class="project-card-head"><span class="project-index">01 / PROYECTO DE FIN DE CICLO</span><span class="project-status"><i></i>PRODUCCIÓN</span></div>
+              <div class="project-main">
+                <h3>Summus<br><em>Aeterni</em></h3>
+                <p class="project-desc">E-commerce de servicios funerarios digitales. Autenticación con Google OAuth 2.0, pagos con Stripe, almacenamiento en Cloudflare R2, configurador de paquetes con calculadora de financiación, panel de administración y suite de tests (unitarios, funcionales, accesibilidad WCAG 2.0 y control de acceso).</p>
+              </div>
+              <div class="project-footer">
+                <div class="project-stack"><span>Laravel 11</span><span>PHP 8.2</span><span>MySQL</span><span>Stripe API</span><span>Google OAuth 2.0</span><span>Cloudflare R2</span></div>
+                <a href="https://github.com/agarciagon/summusaeterni" target="_blank" rel="noopener noreferrer" class="project-link">Ver repositorio <span aria-hidden="true">↗</span></a>
+              </div>
+              <span class="project-watermark" aria-hidden="true">01</span>
+            </article>
 
-  <section class="projects" id="proyectos">
-    <div class="section-head">
-      <span class="section-num">Proyectos</span>
-      <h2>Lo que he construido</h2>
-    </div>
+            <article class="project-card">
+              <div class="project-card-head"><span class="project-index">02 / PRÁCTICAS</span><span class="project-cross" aria-hidden="true">↗</span></div>
+              <h3>GameStore</h3>
+              <p class="project-desc">Aplicación de e-commerce para venta de videojuegos con arquitectura MVC completa: catálogo de productos, carrito, autenticación de usuarios, pasarela de pago con Stripe y generación automática de recibos en PDF.</p>
+              <div class="project-footer">
+                <div class="project-stack"><span>PHP 8.1</span><span>MVC</span><span>MySQL</span><span>Stripe API</span><span>DomPDF</span></div>
+                <a href="https://github.com/agarciagon/gamestore" target="_blank" rel="noopener noreferrer" class="project-link">Ver repositorio <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
 
-    <div class="project-list">
-
-      <article class="project-card project-featured">
-        <div class="project-tag">Proyecto de fin de ciclo · Producción</div>
-        <h3>Summus Aeterni</h3>
-        <p class="project-desc">
-          E-commerce de servicios funerarios digitales. Autenticación con Google OAuth 2.0, pagos con Stripe, almacenamiento en Cloudflare R2, configurador de paquetes con calculadora de financiación, panel de administración y suite de tests (unitarios, funcionales, accesibilidad WCAG 2.0 y control de acceso).
-        </p>
-        <div class="project-stack">
-          <span>Laravel 11</span><span>PHP 8.2</span><span>MySQL</span><span>Stripe API</span><span>Google OAuth 2.0</span><span>Cloudflare R2</span>
+            <article class="project-card">
+              <div class="project-card-head"><span class="project-index">03 / ACADÉMICO</span><span class="project-cross" aria-hidden="true">↗</span></div>
+              <h3>BookNet</h3>
+              <p class="project-desc">Sistema de gestión de biblioteca digital con doble rol (administrador / cliente). CRUD completo del catálogo, gestión de préstamos y devoluciones con control de fechas, alertas de retraso, informes en PDF y panel de estadísticas de uso.</p>
+              <div class="project-footer">
+                <div class="project-stack"><span>PHP</span><span>MySQL</span><span>PDO</span><span>Bootstrap</span><span>DomPDF</span></div>
+                <a href="https://github.com/agarciagon/booknet" target="_blank" rel="noopener noreferrer" class="project-link">Ver repositorio <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
         </div>
-        <div class="project-links">
-          <a href="https://github.com/agarciagon/summusaeterni" target="_blank" rel="noopener" class="project-link">Ver repositorio ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-tag">Proyecto de prácticas</div>
-        <h3>GameStore</h3>
-        <p class="project-desc">
-          Aplicación de e-commerce para venta de videojuegos con arquitectura MVC completa: catálogo de productos, carrito, autenticación de usuarios, pasarela de pago con Stripe y generación automática de recibos en PDF.
-        </p>
-        <div class="project-stack">
-          <span>PHP 8.1</span><span>MVC</span><span>MySQL</span><span>Stripe API</span><span>DomPDF</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/agarciagon/gamestore" target="_blank" rel="noopener" class="project-link">Ver repositorio ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-tag">Proyecto académico</div>
-        <h3>BookNet</h3>
-        <p class="project-desc">
-          Sistema de gestión de biblioteca digital con doble rol (administrador / cliente). CRUD completo del catálogo, gestión de préstamos y devoluciones con control de fechas, alertas de retraso, informes en PDF y panel de estadísticas de uso.
-        </p>
-        <div class="project-stack">
-          <span>PHP</span><span>MySQL</span><span>PDO</span><span>Bootstrap</span><span>DomPDF</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/agarciagon/booknet" target="_blank" rel="noopener" class="project-link">Ver repositorio ↗</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <section class="stack" id="stack">
-    <div class="section-head">
-      <span class="section-num">Stack</span>
-      <h2>Con lo que trabajo</h2>
-    </div>
-    <div class="stack-grid">
-      <div class="stack-group">
-        <h4>Frontend</h4>
-        <p>HTML5 · CSS3 · JavaScript · Bootstrap 5 · Tailwind CSS · Node.js</p>
       </div>
-      <div class="stack-group">
-        <h4>Backend</h4>
-        <p>PHP 8.x · Laravel 11 · Java</p>
-      </div>
-      <div class="stack-group">
-        <h4>Bases de datos</h4>
-        <p>MySQL · MongoDB</p>
-      </div>
-      <div class="stack-group">
-        <h4>APIs &amp; Integraciones</h4>
-        <p>Stripe · Google OAuth 2.0 · Gmail SMTP · Cloudflare R2</p>
-      </div>
-      <div class="stack-group">
-        <h4>Herramientas</h4>
-        <p>Git · GitHub · MVC · REST APIs · Testing · WCAG 2.0</p>
-      </div>
-      <div class="stack-group">
-        <h4>Despliegue</h4>
-        <p>AlwaysData · Configuración de servidores</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="education">
-    <div class="section-head">
-      <span class="section-num">Formación</span>
-      <h2>Base académica</h2>
-    </div>
-    <div class="edu-list">
-      <article class="edu-item">
-        <div class="edu-when">2026</div>
-        <div class="edu-body">
-          <h3>Curso de especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</h3>
-          <p class="edu-place">IES Trassierra, Córdoba</p>
+    <section class="stack section-pad" id="stack" aria-labelledby="stack-title">
+      <div class="section-layout">
+        <div class="section-label"><span>04</span><span>Herramientas</span></div>
+        <div class="section-content">
+          <div class="section-heading section-heading-inline">
+            <div><p class="eyebrow">TECNOLOGÍAS Y PRÁCTICAS</p><h2 id="stack-title">Con lo que trabajo</h2></div>
+            <span class="heading-note">STACK / ACTUAL</span>
+          </div>
+          <div class="stack-grid">
+            <article class="stack-group"><span class="stack-number">01</span><div><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Bootstrap 5 · Tailwind CSS · Node.js</p></div></article>
+            <article class="stack-group"><span class="stack-number">02</span><div><h3>Backend</h3><p>PHP 8.x · Laravel 11 · Java</p></div></article>
+            <article class="stack-group"><span class="stack-number">03</span><div><h3>Bases de datos</h3><p>MySQL · MongoDB</p></div></article>
+            <article class="stack-group"><span class="stack-number">04</span><div><h3>APIs &amp; Integraciones</h3><p>Stripe · Google OAuth 2.0 · Gmail SMTP · Cloudflare R2</p></div></article>
+            <article class="stack-group"><span class="stack-number">05</span><div><h3>Herramientas</h3><p>Git · GitHub · MVC · REST APIs · Testing · WCAG 2.0</p></div></article>
+            <article class="stack-group"><span class="stack-number">06</span><div><h3>Despliegue</h3><p>AlwaysData · Configuración de servidores</p></div></article>
+          </div>
         </div>
-      </article>
-      <article class="edu-item">
-        <div class="edu-when">2026</div>
-        <div class="edu-body">
-          <h3>Graduada en Desarrollo de Aplicaciones Web</h3>
-          <p class="edu-place">IES Trassierra, Córdoba</p>
-          <p>Frontend (HTML5, CSS3, JS, Node.js, Tailwind, Bootstrap) · Backend (PHP, Java, Laravel) · Bases de datos (MySQL, MongoDB) · Despliegue de aplicaciones web.</p>
+      </div>
+    </section>
+
+    <section class="education section-pad" aria-labelledby="education-title">
+      <div class="section-layout">
+        <div class="section-label"><span>05</span><span>Formación</span></div>
+        <div class="section-content">
+          <div class="section-heading section-heading-inline">
+            <div><p class="eyebrow">FORMACIÓN</p><h2 id="education-title">Una base en evolución</h2></div>
+            <span class="heading-note">CÓRDOBA · CÁDIZ</span>
+          </div>
+          <div class="education-list">
+            <article class="education-item">
+              <span class="education-year">2026</span>
+              <div class="education-body"><h3>Curso de especialización en Ciberseguridad en Entornos de las Tecnologías de la Información</h3><p class="education-place">IES Trassierra, Córdoba</p></div>
+            </article>
+            <article class="education-item">
+              <span class="education-year">2026</span>
+              <div class="education-body"><h3>Graduada en Desarrollo de Aplicaciones Web</h3><p class="education-place">IES Trassierra, Córdoba</p><p>Frontend (HTML5, CSS3, JS, Node.js, Tailwind, Bootstrap) · Backend (PHP, Java, Laravel) · Bases de datos (MySQL, MongoDB) · Despliegue de aplicaciones web.</p></div>
+            </article>
+            <article class="education-item">
+              <span class="education-year">2024</span>
+              <div class="education-body"><h3>Graduada en Criminología y Seguridad</h3><p class="education-place">Facultad de Derecho, Universidad de Cádiz</p><p>Metodología de investigación, análisis de datos, gestión de bases de datos, pensamiento analítico y trabajo en equipos multidisciplinares.</p></div>
+            </article>
+          </div>
         </div>
-      </article>
-      <article class="edu-item">
-        <div class="edu-when">2024</div>
-        <div class="edu-body">
-          <h3>Graduada en Criminología y Seguridad</h3>
-          <p class="edu-place">Facultad de Derecho, Universidad de Cádiz</p>
-          <p>Metodología de investigación, análisis de datos, gestión de bases de datos, pensamiento analítico y trabajo en equipos multidisciplinares.</p>
-        </div>
-      </article>
-    </div>
-  </section>
+      </div>
+    </section>
+  </main>
 
   <footer class="contact" id="contacto">
-    <h2>¿Hablamos?</h2>
-    <p class="contact-sub">Disponible para nuevas oportunidades.</p>
-    <a href="mailto:andrea.garciagonzalez28@gmail.com" class="contact-email">andrea.garciagonzalez28@gmail.com</a>
-    <div class="contact-links">
-      <a href="https://github.com/agarciagon" target="_blank" rel="noopener" aria-label="GitHub de Andrea"><i class="bi bi-github"></i></a>
-      <a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener" aria-label="LinkedIn de Andrea"><i class="bi bi-linkedin"></i></a>
+    <div class="contact-inner">
+      <div class="section-label section-label-light"><span>06</span><span>Contacto</span></div>
+      <div class="contact-main">
+        <p class="eyebrow">¿TIENES UN PROYECTO EN MENTE?</p>
+        <h2>Hablemos<span>.</span></h2>
+        <p class="contact-sub">Disponible para nuevas oportunidades.</p>
+        <a href="mailto:andrea.garciagonzalez28@gmail.com" class="contact-email">andrea.garciagonzalez28@gmail.com <span aria-hidden="true">↗</span></a>
+        <div class="contact-links">
+          <a href="https://github.com/agarciagon" target="_blank" rel="noopener noreferrer" aria-label="GitHub de Andrea"><i class="bi bi-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/andreagargon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Andrea"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="contact-bottom"><span>Andrea García González</span><span>El Rubio, Sevilla, España · © 2026</span><a href="#inicio">Volver arriba ↑</a></div>
     </div>
-    <p class="contact-foot">Andrea García González · El Rubio, Sevilla, España © 2026</p>
   </footer>
-
-</main>
-
 </body>
 </html>
